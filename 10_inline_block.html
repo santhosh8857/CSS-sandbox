@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline & Block Styling</title>
+  <style>
+    /* Changing Block Level Element into Inline */
+    li
+    {
+      display: inline;
+    }
+    li a
+    {
+      padding-right: 20px;
+    }
+
+    /* Changing Inline Level Element into Block */
+    img
+    {
+      display: block;
+      margin: auto;
+    }
+
+    .box
+    {
+      width: 32%;
+      display: inline-block;/*this is used for horizontal positioning */
+      box-sizing: border-box;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="#">Technology</a></li>
+    <li><a href="#">Business</a></li>
+    <li><a href="#">Fashion</a></li>
+  </ul>
+
+  <br><br>
+
+  <img src="./IMG/R7a71e7277debf5eacfd3857531d2fd8b.jpg" alt="My Image" width="200px">
+
+  <br><br>
+
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Laborum, consequatur rerum optio repellat 
+      assumenda a totam porro quibusdam ipsa pariatur.</p>
+  </div>
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Laborum, consequatur rerum optio repellat 
+      assumenda a totam porro quibusdam ipsa pariatur.</p>
+  </div>
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Laborum, consequatur rerum optio repellat 
+      assumenda a totam porro quibusdam ipsa pariatur.</p>
+  </div>
+
+</body>
+</html>
